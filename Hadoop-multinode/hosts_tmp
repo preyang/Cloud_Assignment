@@ -1,0 +1,13 @@
+
+#Here add all the master and slave Private Ip's and write its name that you want to use in the system.
+
+
+172.31.8.130  hadoop-master 
+172.31.42.4 hadoop-slave-1
+172.31.38.182  hadoop-slave-2
+172.31.42.108  hadoop-slave-3
+172.31.32.238  hadoop-slave-4
+172.31.46.250  hadoop-slave-5
+172.31.39.203  hadoop-slave-6
+172.31.46.137  hadoop-slave-7
+172.31.41.39  hadoop-slave-8

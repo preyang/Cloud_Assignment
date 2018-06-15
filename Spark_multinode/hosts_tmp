@@ -1,0 +1,13 @@
+
+#Here add all the master and slave Private Ip's and write its name that you want to use in the system.
+
+
+172.31.8.130  spark-master 
+172.31.42.4 spark-slave-1
+172.31.38.182  spark-slave-2
+172.31.42.108  spark-slave-3
+172.31.32.238  spark-slave-4
+172.31.46.250  spark-slave-5
+172.31.39.203  spark-slave-6
+172.31.46.137  spark-slave-7
+172.31.41.39  spark-slave-8

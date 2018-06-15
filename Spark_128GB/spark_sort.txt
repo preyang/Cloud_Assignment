@@ -1,0 +1,10 @@
+
+
+val start = System.nanoTime()   
+val input=sc.textFile("hdfs://localhost:9000/input_128gb");
+val keyval=input.map(_.splitAt(10))
+val result=keyval.sortByKey()
+val final_output=result.map{case (key,value) => s"$key $value" }
+final_output.saveAsTextFile("hdfs://localhost:9000/output_128gb");
+val end = System.nanoTime()		
+println("Elapsed time: " + (end - start) + "ns");  
